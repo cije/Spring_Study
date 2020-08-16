@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="springMVCTest:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/springMVCTest_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="springMVCTest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-5.2.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-5.2.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-jcl-5.2.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-5.2.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-5.2.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-5.2.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-test-5.2.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-5.2.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-5.2.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-5.2.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-5.2.8.RELEASE.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="springMVCTest/web/Web" />
+    </root>
+  </artifact>
+</component>
